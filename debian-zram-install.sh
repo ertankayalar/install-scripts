@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 # Debian Awesome WM Setup
-sudo apt update 
+sudo apt update -y
 
 # zram
-sudo apt install zram-tools vim micro
+sudo apt install -y zram-tools vim micro
 
-sudo vim /etc/defaults/zramswap
+sudo vim /etc/default/zramswap
 
