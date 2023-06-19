@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
 # Debian Awesome WM Setup
+sudo apt update 
+
+# zram
+sudo apt instal zram-tools vim micro
 
 # INCLUDES make,etc.
 sudo apt install -y build-essential
