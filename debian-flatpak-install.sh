@@ -2,7 +2,7 @@
 
 #==============================================================================================================
 #
-#          FILE:  debian-flatpak-apps.sh
+#          FILE:  debian-flatpak-install.sh
 #
 #         USAGE:  bash debian-flatpak-apps.sh
 #

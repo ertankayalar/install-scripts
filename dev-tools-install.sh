@@ -2,7 +2,7 @@
 
 #==============================================================================================================
 #
-#          FILE:  dev-tools-setup.sh
+#          FILE:  dev-tools-install.sh
 #
 #         USAGE:  bash dev-tools-setup.sh
 #

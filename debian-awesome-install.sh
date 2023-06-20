@@ -3,7 +3,7 @@
 #
 #          FILE:  debian-awesome-setup.sh
 #
-#         USAGE:  bash debian-awesome-setup.sh
+#         USAGE:  bash debian-awesome-install.sh
 #
 #   DESCRIPTION:  Installation AwesomeWM on a clean Debian Bookworm (12)
 #
