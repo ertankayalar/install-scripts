@@ -69,8 +69,3 @@ sudo apt install -y fonts-font-awesome fonts-ubuntu fonts-liberation2 fonts-libe
 # Install Nerd Fonts
 source nerdfonts.sh
 
-# Flatpak
-sudo apt install flatpak -y
-# apt install gnome-software-plugin-flatpak -y
-
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
