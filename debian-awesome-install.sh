@@ -37,22 +37,33 @@ sudo apt install -y build-essential
 sudo apt install -y intel-microcode 
 
 # xfce 
-sudo apt install -y xfce4 xfce4-goodies samba
+sudo apt install -y xfce4 xfce4-goodies 
+
+# kde plasma 
+# sudo apt install -y kde-full
+# sudo apt install -y kde-standard # debian selections
+# sudo apt install -y kde-plasma-desktop  # minimal plasma
 
 # awesome
 sudo apt install -y awesome awesome-extra luarocks lightdm
 
+# awesome utils 
+sudo apt install -y  xfce4-power-manager numlockx volumeicon-alsa  rofi i3lock bluez bluez-alsa-utils bluez-tools blueman scrot alsa-utils xbacklight conky-all redshift cmatrix picom  
+
+# image tools for wm
+sudo apt install -y nitrogen variety feh imagemagick flameshot
+
 # system tools
-sudo apt install -y git ufw neofetch htop vim xfce4-power-manager numlockx volumeicon-alsa  rofi i3lock bluez bluez-alsa-utils bluez-tools blueman scrot alsa-utils xbacklight conky-all redshift cmatrix picom 
+sudo apt install -y git ufw neofetch htop vim samba
 
 # apps
 sudo apt install -y chromium 
 
-# image tools
-sudo apt install -y nitrogen variety feh imagemagick flameshot
-
 # utils
-sudo apt install -y g810-led unrar unzip p7zip-full 
+sudo apt install -y unrar unzip p7zip-full 
+
+# hardware utils
+sudo apt install -y g810-led 
 
 # python 
 sudo apt install -y python3-pip python3-neovim
@@ -61,7 +72,7 @@ sudo apt install -y python3-pip python3-neovim
 sudo apt install -y sqlite3
 
 # terminals
-sudo apt install -y alacritty kitty xsel yank
+sudo apt install -y alacritty kitty xsel yank tmux
 
 # Install fonts
 sudo apt install -y fonts-font-awesome fonts-ubuntu fonts-liberation2 fonts-liberation fonts-terminus 

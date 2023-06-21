@@ -33,7 +33,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 brew install gcc 
 
 #tmuxp 
-brew install neovim fzf exa ripgrep starship lsd tmux 
+brew install neovim fzf exa ripgrep starship lsd 
 
 brew install bat zoxide lsd
 
