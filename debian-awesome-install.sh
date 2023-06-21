@@ -46,6 +46,9 @@ sudo apt install -y xfce4 xfce4-goodies
 
 # awesome
 sudo apt install -y awesome awesome-extra luarocks lightdm
+#
+# Create folders in user directory (eg. Documents,Downloads,etc.)
+xdg-user-dirs-update
 
 # awesome utils 
 sudo apt install -y  xfce4-power-manager numlockx volumeicon-alsa  rofi i3lock bluez bluez-alsa-utils bluez-tools blueman scrot alsa-utils xbacklight conky-all redshift cmatrix picom  
