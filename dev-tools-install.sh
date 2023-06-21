@@ -33,17 +33,18 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 brew install gcc 
 
 #tmuxp 
-brew install neovim fzf exa ripgrep starship lsd 
+brew install neovim starship 
 
-brew install bat zoxide lsd
+sudo apt install fzf exa ripgrep 
 
-brew install nodejs npm 
-npm i -g eslint neovim npm-check-updates
-
+#brew install bat zoxide lsd
+#brew install nodejs npm 
+sudo apt install nodejs npm bat zoxide lsd
 # install from original source
 curl -fsSL https://get.pnpm.io/install.sh | sh -
 
-pnpm i -g neovim eslint npm-check-updates
+#npm i -g eslint neovim npm-check-updates
+#pnpm i -g neovim eslint npm-check-updates
 
 
 
