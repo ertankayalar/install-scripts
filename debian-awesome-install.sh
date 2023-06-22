@@ -37,15 +37,15 @@ sudo apt install -y build-essential
 sudo apt install -y intel-microcode 
 
 # xfce 
-sudo apt install -y xfce4 xfce4-goodies 
+#sudo apt install -y xfce4 xfce4-goodies 
 
 # kde plasma 
 # sudo apt install -y kde-full
 # sudo apt install -y kde-standard # debian selections
-# sudo apt install -y kde-plasma-desktop  # minimal plasma
+ sudo apt install -y kde-plasma-desktop  # minimal plasma
 
 # awesome
-sudo apt install -y awesome awesome-extra luarocks lightdm
+sudo apt install -y awesome awesome-extra luarocks # lightdm
 #
 # Create folders in user directory (eg. Documents,Downloads,etc.)
 xdg-user-dirs-update
