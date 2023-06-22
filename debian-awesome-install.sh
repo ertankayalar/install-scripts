@@ -25,9 +25,9 @@ sudo apt update
 
 
 # zram
-sudo apt install -y zram-tools vim micro
+#sudo apt install -y zram-tools vim micro
 
-sudo vim /etc/default/zramswap
+#sudo vim /etc/default/zramswap
 
 # INCLUDES make,etc.
 sudo apt install -y build-essential
