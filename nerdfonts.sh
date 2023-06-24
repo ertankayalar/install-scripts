@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+sudo apt install unzip -y
 
 mkdir ~/.local/share/fonts
 
