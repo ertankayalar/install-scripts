@@ -85,19 +85,15 @@ sudo apt install -y lxappearance
 # Browser Installation (eg. chromium)
 sudo apt install -y firefox-esr  chromium
 
-# Desktop background browser/handler 
+# Desktop background browser/handler  and image tools for wm
 # feh --bg-fill /path/to/directory 
 # sudo apt install -y nitrogen 
-sudo apt install -y feh
+sudo apt install -y feh nitrogen variety imagemick flameshot
  
 
 # basic dev tools
 # python 
 sudo apt install -y python3-pip python3-neovim sqlite3 
-
-
-
-
 
 # Fonts and icons for now
 sudo apt install -y fonts-recommended fonts-ubuntu fonts-font-awesome fonts-terminus
@@ -105,10 +101,10 @@ sudo apt install -y fonts-recommended fonts-ubuntu fonts-font-awesome fonts-term
 
 # Printing and bluetooth (if needed)
 # sudo apt install -y cups system-config-printer simple-scan
-# sudo apt install -y bluez blueman
+sudo apt install -y bluez blueman
 
 # sudo systemctl enable cups
-# sudo systemctl enable bluetooth
+sudo systemctl enable bluetooth
 
 # Packages needed for window manager installation
 sudo apt install -y picom rofi dunst libnotify-bin 
