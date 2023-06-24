@@ -7,11 +7,9 @@ fonts=(
 "FiraCode" 
 "Go-Mono" 
 "Hack" 
-"Inconsolata" 
 "Iosevka" 
 "JetBrainsMono" 
-"Mononoki" 
-"RobotoMono" 
+"Mononoki"  
 "SourceCodePro" 
 )
 
