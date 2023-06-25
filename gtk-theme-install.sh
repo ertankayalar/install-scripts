@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 THEME_FOLDER="$HOME/Documents/Linux/Themes"
 mkdir "$HOME/Documents/Linux"
+mkdir $THEME_FOLDER
 cd $THEME_FOLDER 
 
 # Fedora
