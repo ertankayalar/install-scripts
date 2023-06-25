@@ -51,13 +51,13 @@ unset color_prompt force_color_prompt
 # brew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# pnpm
-export PNPM_HOME="/home/ertan/.local/share/pnpm"
-case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-# pnpm end
+# # pnpm
+# export PNPM_HOME="/home/ertan/.local/share/pnpm"
+# case ":$PATH:" in
+#   *":$PNPM_HOME:"*) ;;
+#   *) export PATH="$PNPM_HOME:$PATH" ;;
+# esac
+# # pnpm end
 
 # prompt
 eval "$(starship init bash)"
