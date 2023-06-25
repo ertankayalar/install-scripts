@@ -55,7 +55,7 @@ sudo apt install -y xfce4 xfce4-goodies
 #
 
 # Network File Tools/System Events
-sudo apt install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backends xfce4-power-manager
+sudo apt install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backends xfce4-power-manager curl 
 
 sudo systemctl enable avahi-daemon
 sudo systemctl enable acpid
