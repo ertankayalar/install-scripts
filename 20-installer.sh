@@ -127,7 +127,7 @@ bash ~/install-scripts/nerdfonts.sh
 
 
 \cp ~/.bashrc ~/.bashrc-old
-\cp ~/install-scripts/resources/.bashrc ~
+\cp ~/install-scripts/resources/bashrc ~/.bashrc
 
 sudo apt autoremove
 
