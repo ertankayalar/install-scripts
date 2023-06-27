@@ -25,6 +25,9 @@ sudo cp ~/bin/pulseaudio-control.bash /bin/
 \cp -r ~/Downloads/dotfiles/.config/tmux/ ~/.config/
 
 
+# Install Nerd Fonts
+bash ~/install-scripts/nerdfonts.sh
+
 printf "\e[1;32m sudo timeshift --create  --comments 'after config' .\e[0m\n"
 printf "\e[1;32mYou can now reboot! Thank you.\e[0m\n"
 

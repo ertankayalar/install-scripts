@@ -68,6 +68,9 @@ sudo apt install -y thunar thunar-archive-plugin thunar-volman file-roller
 # Terminals 
 sudo apt install -y kitty alacritty xsel yank tmux tilix
 
+# Terminal Tools
+sudo apt install -y fzf exa ripgrep lsd bat zoxide
+
 # Sound packages
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pamixer
 
@@ -122,8 +125,6 @@ sudo systemctl enable lightdm
 # hardware utils
 sudo apt install -y g810-led 
 
-# Install Nerd Fonts
-bash ~/install-scripts/nerdfonts.sh
 
 
 \cp ~/.bashrc ~/.bashrc-old
