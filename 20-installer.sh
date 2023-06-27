@@ -126,7 +126,6 @@ sudo systemctl enable lightdm
 sudo apt install -y g810-led 
 
 
-
 \cp ~/.bashrc ~/.bashrc-old
 \cp ~/install-scripts/resources/bashrc ~/.bashrc
 

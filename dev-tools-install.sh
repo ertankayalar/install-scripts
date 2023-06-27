@@ -1,30 +1,10 @@
 #!/usr/bin/env bash
 
-#==============================================================================================================
-#
-#          FILE:  dev-tools-install.sh
-#
-#         USAGE:  bash dev-tools-setup.sh
-#
-#   DESCRIPTION:  Installation of dev tools
-#
-#        STATUS:  TESTED
-#
-#       OPTIONS:  ---
-#  REQUIREMENTS:  a clean Debian Bookworm (12) 
-#                 installed with git 
-#          BUGS:  ---
-#         NOTES:  Read README.md
-#        AUTHOR:  Ertan Kayalar, ertankayalar@gmail.com
-#       COMPANY:  private
-#       VERSION:  0.01
-#       CREATED:  19-06-2023
-#      REVISION:  ---
-#===============================================================================================================
+sudo apt install ripgrep luarocks sqlite
+
 # homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> $HOME/.profile
 (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> $HOME/.bashrc
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
@@ -33,16 +13,13 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 brew install gcc 
 
 #tmuxp 
-brew install neovim starship 
+brew install neovim 
 
-brew install bat zoxide lsd
 
 brew install nodejs npm 
 #npm i -g eslint neovim npm-check-updates
-sudo apt install fzf exa ripgrep 
 
-#brew install bat zoxide lsd
-#brew install nodejs npm 
+#brew install bat zoxide lsd exa zoxide 
 # sudo apt install nodejs npm bat zoxide lsd
 # install from original source
 curl -fsSL https://get.pnpm.io/install.sh | sh -
