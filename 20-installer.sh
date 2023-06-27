@@ -68,7 +68,6 @@ sudo apt install -y thunar thunar-archive-plugin thunar-volman file-roller
 # Terminals 
 sudo apt install -y kitty alacritty xsel yank tmux tilix
 
-
 # Sound packages
 sudo apt install -y pulseaudio alsa-utils pavucontrol volumeicon-alsa pamixer
 
@@ -135,7 +134,8 @@ sudo apt install -y mpv gimp inkscape mkvtoolnix-gui
 \cp ~/.bashrc ~/.bashrc-old
 \cp ~/install-scripts/resources/.bashrc ~
 
+
 sudo apt autoremove
 
-printf "\e[1;32mYou can now reboot! Thank you.\e[0m\n"
 
+printf "\e[1;32m It's time to run config installer .\e[0m\n"
