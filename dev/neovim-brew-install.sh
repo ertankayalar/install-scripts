@@ -13,9 +13,9 @@ brew install gcc
 
 brew install neovim 
 
-# brew install bat zoxide lsd
+#brew install bat zoxide lsd
 
-# brew install nodejs npm 
+brew install nodejs npm 
 #npm i -g eslint neovim npm-check-updates
 # sudo apt install fzf exa ripgrep 
 
