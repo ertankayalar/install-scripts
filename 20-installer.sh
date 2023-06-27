@@ -89,12 +89,11 @@ sudo apt install -y firefox-esr  chromium
 sudo apt install -y feh nitrogen variety imagemick flameshot
  
 
-# basic dev tools
-# python 
-sudo apt install -y python3-pip python3-neovim sqlite3 
+# python pip
+sudo apt install -y python3-pip 
 
 # Fonts and icons for now
-sudo apt install -y fonts-recommended fonts-ubuntu fonts-font-awesome fonts-terminus
+sudo apt install -y fonts-recommended fonts-ubuntu fonts-font-awesome fonts-terminus fonts-noto-hinted fonts-roboto-hinted
 
 
 # Printing and bluetooth (if needed)
