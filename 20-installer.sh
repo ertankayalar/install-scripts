@@ -54,7 +54,7 @@ bash ~/install-scripts/resources/i3-commands
 # Gnome
 
 # Network File Tools/System Events
-sudo apt install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backends xfce4-power-manager curl 
+sudo apt install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backends xfce4-power-manager 
 
 sudo systemctl enable avahi-daemon
 sudo systemctl enable acpid
@@ -107,7 +107,7 @@ sudo systemctl enable bluetooth
 sudo apt install -y picom rofi dunst libnotify-bin 
 
 # utils
-sudo apt install -y unrar unzip p7zip-full 
+sudo apt install -y unrar unzip p7zip-full  curl wget
 
 # fav apps
 
@@ -115,11 +115,9 @@ sudo apt install -y numlockx scrot evince pdfarranger transmission-gtk
 sudo apt install -y figlet qimgv l3afpad galculator redshift cpu-x
 
 
-
 # Install Lightdm Console Display Manager
 sudo apt install -y lightdm lightdm-gtk-greeter-settings
 sudo systemctl enable lightdm
-
 
 # hardware utils
 sudo apt install -y g810-led 
@@ -131,8 +129,6 @@ bash ~/install-scripts/nerdfonts.sh
 \cp ~/.bashrc ~/.bashrc-old
 \cp ~/install-scripts/resources/.bashrc ~
 
-
 sudo apt autoremove
-
 
 printf "\e[1;32m It's time to run config installer .\e[0m\n"
