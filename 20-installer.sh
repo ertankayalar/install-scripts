@@ -127,8 +127,6 @@ sudo apt install -y g810-led
 # Install Nerd Fonts
 bash ~/install-scripts/nerdfonts.sh
 
-# video graph apps
-sudo apt install -y mpv gimp inkscape mkvtoolnix-gui
 
 \cp ~/.bashrc ~/.bashrc-old
 \cp ~/install-scripts/resources/.bashrc ~
