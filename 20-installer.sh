@@ -39,11 +39,11 @@ xdg-user-dirs-update
 # PICK YOUR Window Managers (Uncomment if you want these installed)
 bash ~/install-scripts/resources/bspwm-commands
 bash ~/install-scripts/resources/dk-commands
-# bash ~/install-scripts/resources/qtile-commands
+bash ~/install-scripts/resources/qtile-commands
 bash ~/install-scripts/resources/i3-commands
 
 # XFCE4 Minimal
-sudo apt install -y xfce4 xfce4-goodies
+#sudo apt install -y xfce4 xfce4-goodies
 
 # kde plasma 
 # sudo apt install -y kde-full
@@ -129,10 +129,10 @@ sudo apt install -y g810-led
 # Install Nerd Fonts
 bash ~/install-scripts/nerdfonts.sh
 
-
 # video graph apps
 sudo apt install -y mpv gimp inkscape mkvtoolnix-gui
 
+\cp ~/.bashrc ~/.bashrc-old
 \cp ~/install-scripts/resources/.bashrc ~
 
 sudo apt autoremove
