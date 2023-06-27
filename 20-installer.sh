@@ -38,7 +38,8 @@ xdg-user-dirs-update
 
 # PICK YOUR Window Managers (Uncomment if you want these installed)
 bash ~/install-scripts/resources/bspwm-commands
-bash ~/install-scripts/resources/qtile-commands
+bash ~/install-scripts/resources/dk-commands
+# bash ~/install-scripts/resources/qtile-commands
 bash ~/install-scripts/resources/i3-commands
 
 # XFCE4 Minimal
@@ -48,11 +49,9 @@ sudo apt install -y xfce4 xfce4-goodies
 # sudo apt install -y kde-full
 # sudo apt install -y kde-standard # debian selections
 # sudo apt install -y kde-plasma-desktop  # minimal plasma
-#
+
 
 # Gnome
-#
-#
 
 # Network File Tools/System Events
 sudo apt install -y dialog mtools dosfstools avahi-daemon acpi acpid gvfs-backends xfce4-power-manager curl 
