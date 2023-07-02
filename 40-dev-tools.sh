@@ -16,7 +16,7 @@ brew install gcc
 brew install neovim 
 
 
-brew install nodejs npm 
+brew install nodejs npm lazygit
 #npm i -g eslint neovim npm-check-updates
 
 #brew install bat zoxide lsd exa zoxide 
