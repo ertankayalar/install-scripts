@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo apt install ripgrep luarocks sqlite
+sudo apt install -y ripgrep luarocks sqlite3
 
 # homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
