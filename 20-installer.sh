@@ -125,6 +125,9 @@ sudo systemctl enable lightdm
 # hardware utils
 sudo apt install -y g810-led 
 
+# basic dev tools 
+sudo apt install -y sqlite3 luarocks
+
 
 \cp ~/.bashrc ~/.bashrc-old
 \cp ~/install-scripts/resources/bashrc ~/.bashrc
