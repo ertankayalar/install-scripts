@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 # Install Required Packages
 sudo apt install software-properties-common apt-transport-https curl ca-certificates -y
