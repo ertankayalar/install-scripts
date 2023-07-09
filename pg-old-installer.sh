@@ -1,10 +1,20 @@
 #!/usr/bin/env bash
-# Debian 12 repos included PG15
+
+# Install PostgreSQL
+sudo apt update
+sudo apt install -y apt-transport-https lsb-release ca-certificates curl dirmngr gnup
+
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+
 
 sudo apt update
-sudo apt -y install postgresql
-sudo systemctl status postgresql
+sudo apt install -y postgresql
+
+# enable systemctl
 sudo systemctl start postgresql
+sudo systemctl enable postgresql
+
 
 #
 # Setup the repository
@@ -23,4 +33,11 @@ sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] h
 # Install for both desktop and web modes:
 sudo apt install -y pgadmin4
 
+# Install for desktop mode only:
+#sudo apt install pgadmin4-desktop
 
+# Install for web mode only: 
+#sudo apt install pgadmin4-web 
+
+# Configure the webserver, if you installed pgadmin4-web:
+#sudo /usr/pgadmin4/bin/setup-web.sh
