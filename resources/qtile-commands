@@ -6,6 +6,10 @@ sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 # Dependencies
 sudo apt install -y python3-full python3-pip libpangocairo-1.0-0 python3-cffi python3-xcffib git
 
+# for fix error no module named cffi
+# python3 -m pip install cffi
+
+pip install cffi
 # Install cairocffi using pip
 pip install --no-cache-dir cairocffi
 
