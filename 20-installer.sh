@@ -116,7 +116,7 @@ sudo apt install -y unrar unzip p7zip-full  curl wget
 
 sudo apt install -y numlockx scrot evince pdfarranger transmission-gtk 
 sudo apt install -y figlet qimgv l3afpad galculator redshift cpu-x
-
+sudo apt install -y newsboat
 
 # Install Lightdm Console Display Manager
 sudo apt install -y lightdm lightdm-gtk-greeter-settings
