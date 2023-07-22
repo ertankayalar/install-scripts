@@ -8,9 +8,10 @@ wget https://golang.org/dl/go1.20.6.linux-amd64.tar.gz
 sudo rm -rf /usr/local/go 
 
 # install go
-sudo tar -C /usr/local -xzf go1.20.2.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.20.6.linux-amd64.tar.gz
 
-echo "export PATH=/usr/local/go/bin:${PATH}" | sudo tee -a $HOME/.bashrc
+
+echo 'export PATH="/usr/local/go/bin:$PATH"' | tee -a ~/.bashrc
 
 source $HOME/.bashrc
 
