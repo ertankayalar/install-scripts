@@ -18,3 +18,5 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 # Verify
 sudo docker run hello-world
 
+# add current user to docker, don't forger logout/login
+sudo usermod -aG docker $USER
