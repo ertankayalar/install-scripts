@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-sudo apt instal httrack webhttrack httrack-doc
+sudo apt install -y httrack webhttrack httrack-doc
