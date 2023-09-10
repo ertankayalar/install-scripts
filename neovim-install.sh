@@ -3,6 +3,8 @@
 sudo apt install ninja-build gettext cmake unzip curl
 
 # clone
+cd ~/Downloads
+
 git clone https://github.com/neovim/neovim
 cd neovim
 git checkout stable

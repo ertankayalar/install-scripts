@@ -2,6 +2,9 @@
 
 sudo apt install -y ripgrep luarocks sqlite3
 
+# python virutal env creator
+sudo apt install -y virtualenv
+
 # homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -10,16 +13,16 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # brew tools
 
-brew install gcc 
+brew install gcc
 
-#tmuxp 
-brew install neovim 
+#tmuxp
+brew install neovim
 
 
 brew install nodejs npm lazygit
 #npm i -g eslint neovim npm-check-updates
 
-#brew install bat zoxide lsd exa zoxide 
+#brew install bat zoxide lsd exa zoxide
 # sudo apt install nodejs npm bat zoxide lsd
 # install from original source
 curl -fsSL https://get.pnpm.io/install.sh | sh -
@@ -28,4 +31,5 @@ curl -fsSL https://get.pnpm.io/install.sh | sh -
 #pnpm i -g neovim eslint npm-check-updates
 
 
-
+# ruby install
+sudo apt install -y rbenv
