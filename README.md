@@ -1,6 +1,8 @@
 # Linux Install Scripts
 
-Install scripts for Debian 12 bookworm
+Install scrips for Linux Mint, Ubuntu and Debian 12
+
+
 
 
 
