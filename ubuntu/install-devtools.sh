@@ -15,3 +15,4 @@ brew install fzf exa ripgrep lsd bat zoxide
 brew install neovim hugo
 brew install node npm pnpm yarn
 # sudo apt install python3-pynvim
+curl -fsSL https://bun.sh/install | bash
