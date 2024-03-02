@@ -13,9 +13,8 @@ sudo apt install -y build-essential
 
 brew install gcc
 
-#tmuxp
-brew install neovim
-brew install bat zoxide lsd eza zoxide starship
+# Console Tools
+brew install neovim tmux bat zoxide lsd eza starship
 
 # Developer Tools
 brew install nodejs npm lazygit hugo
