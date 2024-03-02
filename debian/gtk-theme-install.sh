@@ -38,3 +38,27 @@ cd Lavanda-gtk-theme
 cd ~/
 printf "\e[1;32m Themes are installed.\e[0m\n"
 
+
+# Colloid GTK
+
+
+cd $THEME_FOLDER
+git clone git@github.com:vinceliuice/Colloid-gtk-theme.git
+cd Colloid-gtk-theme
+./install.sh -t all --tweaks nord rimless -l
+
+cd $THEME_FOLDER
+git clone 
+
+./install.sh -t all -i debian --tweaks round solid noborder
+
+
+# WhiteSur
+cd $THEME_FOLDER
+
+./install.sh -t all
+
+# Colloid
+cd $THEME_FOLDER
+git clone git@github.com:vinceliuice/Colloid-icon-theme.git
+./install.sh -t all -s nord
