@@ -6,7 +6,7 @@ sudo apt install flatpak -y
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 flatpak install flathub org.mozilla.firefox -y
-flatpak install flathub org.mozilla.Thunderbird
+flatpak install flathub org.mozilla.Thunderbird -y
 flatpak install flathub org.telegram.desktop -y 
 flatpak install flathub com.brave.Browser -y
 flatpak install flathub com.spotify.Client -y
