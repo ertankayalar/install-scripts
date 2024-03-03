@@ -45,7 +45,7 @@ printf "\e[1;32m Themes are installed.\e[0m\n"
 cd $THEME_FOLDER
 git clone git@github.com:vinceliuice/Colloid-gtk-theme.git
 cd Colloid-gtk-theme
-./install.sh -t all --tweaks nord rimless -l
+./install.sh -t all --tweaks nord rimless 
 
 cd $THEME_FOLDER
 git clone 
