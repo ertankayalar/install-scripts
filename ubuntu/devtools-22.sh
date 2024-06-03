@@ -14,6 +14,7 @@ brew install gcc
 brew install tmux bat zoxide eza fzf
 brew install nodejs npm lazygit
 
+# snap 
 sudo snap install hugo
 
 
