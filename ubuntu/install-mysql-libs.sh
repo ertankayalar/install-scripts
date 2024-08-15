@@ -21,7 +21,7 @@ install_mysql_client_dev() {
   sudo apt update
 
   echo "Installing MySQL client development libraries..."
-  sudo apt install -y libmysqlclient-dev
+  sudo apt install -y libmysqlclient-dev mysql-client-core-8.0
 
   echo "MySQL client development libraries have been installed successfully."
 }
