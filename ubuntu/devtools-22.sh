@@ -1,22 +1,12 @@
-#/bin/bash 
+sudo apt-get update
 
-# Brew
-sudo apt install -y wget curl
-sudo apt install -y build-essential
+sudo apt-get -y install git-core zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev software-properties-common libffi-dev
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+mise use --global ruby@3.3
+mise x ruby -- gem install rails --no-document
 
-(echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> $HOME/.bashrc
+mise use --global node@lts
 
-# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-brew install gcc
-#brew install neovim
-brew install tmux bat zoxide eza fzf
-brew install nodejs npm lazygit
-
-# snap 
-sudo snap install hugo
-
-
-# Npm Tools
-npm i -g eslint neovim npm-check-updates
+# yarn automaticy installed with node
+corepack enable yarn
+yarn -v # || npm install -g yarn
